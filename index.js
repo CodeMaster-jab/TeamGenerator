@@ -11,13 +11,21 @@ const GenerateHTML = require('./genHTML');
 
 const teamMembers = [];
 
-const mgr = new Manager('Jeff', 1, 'jeff.bell@sprint.com', 122);
+const member = {
+  role: '',
+  name: '',
+  id: '',
+  email: '',
+  other: '',
+};
+
+const mgr = new Manager('Scott Tefft', 1, 'scotttefft@aol.com', 122);
 let htm = GenerateManager.generateHTML(mgr);
 
-const eng = new Engineer('Jeff', 2, 'jeff.bell@sprint.com', 'codemaster-jab');
+const eng = new Engineer('Jeff Bell', 2, 'jeff.bell@sprint.com', 'codemaster-jab');
 htm += GenerateEngineer.generateHTML(eng);
 
-const int = new Intern('Jeff', 3, 'jeff.bell@sprint.com', 'DeVry');
+const int = new Intern('Bob Smith', 3, 'bob.smith@devry.edu', 'DeVry');
 htm += GenerateIntern.generateHTML(int);
 
 htm = GenerateHTML.generateHTML(htm);
