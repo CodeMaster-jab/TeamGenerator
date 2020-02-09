@@ -15,7 +15,7 @@ so that I have quick access to emails and GitHub profiles.
 
 [Repository](https://github.com/CodeMaster-jab/TeamGenerator)
 
-[HTML webpage](https://github.com/CodeMaster-jab/TeamGenerator/blob/master/output/team.html)
+[HTML webpage](https://codemaster-jab.github.io/TeamGenerator/)
 
 ## Demo
 
