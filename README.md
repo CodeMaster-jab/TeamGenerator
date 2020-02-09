@@ -1,9 +1,9 @@
 # Team Generator
 
-This is a command line application that propmts the user to enter Team members
+This is a command line application that prompts the user to enter Team members
 and then generates an HTML page displaying the information about the Team.
 
-This application uses 'Inquirer' npm package to propmt the user for input.  This
+This application uses 'Inquirer' npm package to prompt the user for input.  This
 exercise demonstrates the use of Classes and extending classes.
 
 ## User Story
