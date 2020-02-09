@@ -5,10 +5,10 @@ const fs = require('fs');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
-const GenerateManager = require('./genManager');
-const GenerateEngineer = require('./genEngineer');
-const GenerateIntern = require('./genIntern');
-const GenerateHTML = require('./genHTML');
+const GenerateManager = require('./lib/genManager');
+const GenerateEngineer = require('./lib/genEngineer');
+const GenerateIntern = require('./lib/genIntern');
+const GenerateHTML = require('./lib/genHTML');
 
 function GenMembersHTML(users) {
   let htm = '';
